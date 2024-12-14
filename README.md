@@ -17,6 +17,7 @@ Welcome to **1Click**, an all-in-one online streaming platform that allows users
 ---
 
 ## 📸 Project Snapshots
+More project snapshots are stored in the sample_output folder.
 ### Homepage Preview
 ![Homepage Preview](sample_output/sample1.png)
 
