@@ -20,6 +20,14 @@ Welcome to **1Click**, an all-in-one online streaming platform that allows users
 ### Homepage Preview
 ![Homepage Preview](sample_output/sample1.png)
 
+### Watch Now Page
+![Watch Now Page 1](sample_output/watch1.png)
+![Watch Now Page 2](sample_output/watch2.png)
+
+### Sign In and Sign Up
+![Sign In](sample_output/sample10.png)
+![Sign Up](sample_output/sample9.png)
+
 ### Subscription Page
 ![Subscription Page](sample_output/payment.png)
 
