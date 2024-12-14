@@ -17,7 +17,11 @@ Welcome to **1Click**, an all-in-one online streaming platform that allows users
 ---
 
 ## 📸 Project Snapshots
-> Insert project screenshots here
+### Homepage Preview
+![Homepage Preview](sample_output/sample1.png)
+
+### Subscription Page
+![Subscription Page](sample_output/payment.png)
 
 ---
 
