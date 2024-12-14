@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./images/movie logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign In / Sign Up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="signin-up.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i><span class="main-color">1</span>Click
+                </a>
+                <p class="signin-up-msg">WELCOME! Sign In or Sign Up to keep up with the latest entertainment happenings!</p>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <!-- Sign Up Form -->
+        <div class="signup">
+            <form action="index.html" method="GET">
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="txt" placeholder="User name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="number" name="broj" placeholder="Phone Number">
+                <input type="password" name="pswd" placeholder="Password">
+                <button class="signup_btn">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Sign In Form -->
+        <div class="login">
+            <form action="index.html" method="GET">
+                <label for="chk" aria-hidden="true">Sign In</label>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="pswd" placeholder="Password">
+                <button class="login_btn">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./images/movie logo.png">
+    <title>Subscription Payment</title>
+    <link rel="stylesheet" href="subscription.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form action="index.html" method="GET">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="input-box">
+                        <span>Full Name :</span>
+                        <input type="text" placeholder="Enter your full name">
+                    </div>
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+
+                    <div class="input-box">
+                        <span>Address :</span>
+                        <input type="text" placeholder="Room - Street - Locality">
+                    </div>
+                    <div class="input-box">
+                        <span>Province :</span>
+                        <input type="text" placeholder="Enter your province">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>City :</span>
+                            <input type="text" placeholder="Enter your city">
+                        </div>
+                        <div class="input-box">
+                            <span>Zip Code :</span>
+                            <input type="number" placeholder="Zip Code">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title">Payment</h3>
+                    <div class="input-box">
+                        <span>Subscription:</span>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="subscription" value="premium">
+                                Premium
+                            </label>
+                            <label>
+                                <input type="radio" name="subscription" value="vip">
+                                VIP
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="input-box">
+                        <span>Cards Accepted :</span>
+                        <img src="./images/cards.jpg" alt="">
+                    </div>
+                    <div class="input-box">
+                        <span>Name On Card :</span>
+                        <input type="text" placeholder="Name on card">
+                    </div>
+                    <div class="input-box">
+                        <span>Credit Card Number :</span>
+                        <input type="number" placeholder="Enter card number">
+                    </div>
+                    <div class="input-box">
+                        <span>Exp. Month :</span>
+                        <input type="text" placeholder="Month">
+                    </div>
+                
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Exp. Year :</span>
+                            <input type="number" placeholder="Year">
+                        </div>
+                        <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="CVV/CVC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="btn back-btn" onclick="history.back()">Back</button>
+                <button type="submit" class="btn submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
